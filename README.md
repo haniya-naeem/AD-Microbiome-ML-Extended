@@ -8,7 +8,7 @@ An individual extension of a team project on classifying Alzheimer's disease sta
 
 The original team project developed a computational diagnostic framework for Alzheimer's disease (AD) by integrating microbiome-derived genome-scale metabolic models (GEMs) with machine learning to predict cognitive disease stages (Healthy, Mild Cognitive Impairment, and Alzheimer's disease) from gut microbial activity. The pipeline combined 16S rRNA taxonomic profiling using QIIME2 with community-level metabolic modeling using MICOM and the AGORA genome-scale metabolic model database, then trained Support Vector Machine and Random Forest classifiers on two feature sets: relative abundance (RA) features alone, and RA combined with MICOM-derived metabolic flux features.
 
-The original project found that incorporating MICOM-derived metabolic features substantially improved classification performance compared to using taxonomic composition alone. Full methodology, results, and discussion are available in [final report](https://github.com/haniya-naeem/AD-Microbiome-ML-Classification/blob/main/Final_Report.pdf).
+The original project found that incorporating MICOM-derived metabolic features substantially improved classification performance compared to using taxonomic composition alone. Full methodology, results, and discussion are available in [final report](https://github.com/haniya-naeem/AD-Microbiome-ML-Classification/blob/main/Project_Report_ENGG680_Group_10.pdf).
 
 ## Purpose of This Repository
 
