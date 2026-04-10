@@ -43,9 +43,9 @@ The reported improvement in test accuracy from 0.62 to 0.75 must be interpreted 
 
 The tuned SVM also exhibited a 5-fold cross-validation accuracy of approximately 42% on the training set, which is lower than its 75% test accuracy. This is the opposite of what is typically observed when a model overfits during training. The discrepancy is likely a result of the small training set size of 17 samples, which leaves very few samples per condition in each cross-validation fold. The cross-validation accuracy estimates are therefore unstable.
 
-These limitations support the conclusion drawn in Section 4.5 of the original report. The most significant constraint on this model is the loss of samples during MICOM community reconstruction. Further hyperparameter optimization is unlikely to produce meaningful and reproducible improvements until GEM coverage can be expanded and a larger sample population is available for training and evaluation. This is the priority direction outlined in the [main README](../README.md).
+These limitations support the conclusion drawn in Section 4.5 of the original report. The most significant constraint on this model is the loss of samples during MICOM community reconstruction. Further hyperparameter optimization is unlikely to produce meaningful and reproducible improvements until GEM coverage can be expanded and a larger sample population is available for training and evaluation. This is the priority direction outlined in the [future work roadmap](../README.md).
 
 ## Code
 
-The hyperparameter tuning is implemented in cells 19 and 28 of [`Machine_Learning_Analysis.ipynb`](https://github.com/haniya-naeem/AD-Microbiome-ML-Classification/blob/main/Machine_Learning_Analysis.ipynb) in the original team repository. A standalone notebook for this extension repository is planned as part of the work outlined in the [main README](../README.md).
+The hyperparameter tuning is implemented in cells 19 and 28 of [`Machine_Learning_Analysis.ipynb`](https://github.com/haniya-naeem/AD-Microbiome-ML-Classification/blob/main/Machine_Learning_Analysis.ipynb) in the original team repository. A standalone notebook for this extension repository is planned as part of the work outlined in the [future work roadmap](../README.md).
 
